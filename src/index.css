@@ -12,7 +12,7 @@ color: black;
 
 ::-webkit-scrollbar {
 width: 0px;
-  height: 5px;
+height: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
