@@ -22,7 +22,7 @@ height: 200px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: transparent;
+background-color: transparent;
 }
 
 .category-btn:hover {
