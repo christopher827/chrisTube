@@ -16,7 +16,7 @@ sx={{
       height: '326px',
       margin: 'auto',
       marginTop,
-    }}
+}}
   >
     <Link to={`/channel/${channelDetail?.id?.channelId}`}>
       <CardContent sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', textAlign: 'center', color: '#fff' }}>
