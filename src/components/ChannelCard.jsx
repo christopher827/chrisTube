@@ -33,7 +33,7 @@ sx={{
             {parseInt(channelDetail?.statistics?.subscriberCount).toLocaleString('en-US')} Subscribers
           </Typography>
         )}
-      </CardContent>
+</CardContent>
 </Link>
 </Box>
 );
