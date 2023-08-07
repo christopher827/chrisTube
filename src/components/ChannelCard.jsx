@@ -35,7 +35,7 @@ sx={{
           </Typography>
         )}
       </CardContent>
-    </Link>
+</Link>
 </Box>
 );
 
