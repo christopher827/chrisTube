@@ -36,7 +36,7 @@ sx={{
         )}
       </CardContent>
     </Link>
-  </Box>
+</Box>
 );
 
 export default ChannelCard;
