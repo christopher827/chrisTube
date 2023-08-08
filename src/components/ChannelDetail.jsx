@@ -22,7 +22,7 @@ const videosData = await fetchFromAPI(`search?channelId=${id}&part=snippet%2Cid&
 setVideos(videosData?.items);
 };
 
-    fetchResults();
+fetchResults();
   }, [id]);
 
   return (
