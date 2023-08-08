@@ -23,7 +23,7 @@ setVideos(videosData?.items);
 };
 
 fetchResults();
-  }, [id]);
+}, [id]);
 
   return (
     <Box minHeight="95vh">
