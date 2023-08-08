@@ -13,7 +13,7 @@ const { id } = useParams();
 
 useEffect(() => {
 const fetchResults = async () => {
-      const data = await fetchFromAPI(`channels?part=snippet&id=${id}`);
+const data = await fetchFromAPI(`channels?part=snippet&id=${id}`);
 
       setChannelDetail(data?.items[0]);
 
