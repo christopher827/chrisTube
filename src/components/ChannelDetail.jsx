@@ -9,7 +9,7 @@ const ChannelDetail = () => {
 const [channelDetail, setChannelDetail] = useState();
 const [videos, setVideos] = useState(null);
 
-  const { id } = useParams();
+const { id } = useParams();
 
   useEffect(() => {
     const fetchResults = async () => {
