@@ -11,7 +11,7 @@ const [videos, setVideos] = useState(null);
 
 const { id } = useParams();
 
-  useEffect(() => {
+useEffect(() => {
     const fetchResults = async () => {
       const data = await fetchFromAPI(`channels?part=snippet&id=${id}`);
 
