@@ -26,7 +26,7 @@ fetchResults();
 }, [id]);
 
   return (
-    <Box minHeight="95vh">
+  <Box minHeight="95vh">
       <Box>
         <div style={{
           height:'300px',
