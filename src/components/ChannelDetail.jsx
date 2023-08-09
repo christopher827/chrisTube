@@ -34,7 +34,7 @@ fetchResults();
   zIndex: 10,
     }} />
   <ChannelCard channelDetail={channelDetail} marginTop="-93px" />
-      </Box>
+    </Box>
       <Box p={2} display="flex">
       <Box sx={{ mr: { sm: '100px' } }}/>
         <Videos videos={videos} />
