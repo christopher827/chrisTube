@@ -25,7 +25,7 @@ setVideos(videosData?.items);
 fetchResults();
 }, [id]);
 
-  return (
+return (
   <Box minHeight="95vh">
   <Box>
   <div style={{
